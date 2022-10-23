@@ -7,4 +7,4 @@ main: training the models
 
 predictor: predicting labels for the unknown data
 
-vote_testing: measuring the forest's accuracy
+vote_testing: measuring the forest's accuracy manually
