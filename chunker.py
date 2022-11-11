@@ -7,7 +7,7 @@ for i in range(1, len(f), chunk_size):
     fs.append(f[i:i+chunk_size])
 
 for j in range(len(fs)):
-    fchunk = open(f"chunks/chunk{j}.csv", "w", encoding="utf-8")
+    fchunk = open(f"chunks/nogenre_chunks/chunk{j}.csv", "w", encoding="utf-8")
     fchunk.writelines(f[0] + "\n")
 
     for line in fs[j]:
